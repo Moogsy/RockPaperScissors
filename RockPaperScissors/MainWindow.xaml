@@ -1,0 +1,14 @@
+﻿<Window x:Class="RockPaperScissors.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RockPaperScissors"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Rock paper scissors" HorizontalAlignment="Center" Margin="0,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.9,3.713" FontSize="72"/>
+        <Button Content="Play" Margin="241,217,241,133" FontSize="22" Click="Button_Click"/>
+
+    </Grid>
+</Window>

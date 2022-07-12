@@ -1,0 +1,15 @@
+﻿<Window x:Class="RockPaperScissorsApp.EndScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RockPaperScissorsApp"
+        mc:Ignorable="d"
+        Title="EndScreen" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="ResultAnnouncement" Content="{Binding Path=OutcomeMessage}" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <Label x:Name="YourChoice" Content="{Binding Path=YourChoiceMessage}" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="CpuChoice" Content="{Binding Path=CpuChoiceMessage}" HorizontalAlignment="Left" Margin="5,258,0,0" VerticalAlignment="Top" FontSize="48" RenderTransformOrigin="0.3,0.804"/>
+        <Button Content="Replay ?" Margin="262,340,262,27" FontSize="24" Click="Button_Click"/>
+    </Grid>
+</Window>
